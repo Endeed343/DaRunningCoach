@@ -1,0 +1,277 @@
+header{
+    width:100vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.navigation{
+    position:absolute;
+    display:block;
+    width:110vw;
+    height:90px;
+    top:0;
+    left:0;
+    background-color: rgb(176, 229, 235, 0.5);
+}
+
+nav{
+    display:block;
+    text-align:left;
+}
+
+nav ul{
+    margin-top:25px;
+    height:40px;
+    list-style-type:none;
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+}
+
+nav li{
+    display:inline-block;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+nav a{
+    font-size:1em;
+    color:black;
+    text-decoration:none;
+}
+
+nav a:hover{
+    font-weight:bold;
+}
+
+img.logo{
+    width:50%;
+    margin-top:110px;
+    margin-left:25%;
+}
+
+body{
+    width:100vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/mountainRunner.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    line-height:1.5;
+}
+
+div.firstContent{
+    margin-top:15vh;
+    width:75vw;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0) 15px 25px 50px -12px;
+}
+
+h3.info{
+    padding-top:10px;
+    text-align:center;
+}
+
+ol#howTo{
+    padding-bottom:25px;
+}
+
+div#form{
+    width:60vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15vh;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0) 15px 25px 50px -12px;
+}
+
+div#formContainer{
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:5px;
+}
+
+div#additionalInformation{
+    margin-top:15vh;
+    width:90vw;
+    margin-left:5vw;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0) 15px 25px 50px -12px;
+}
+
+p.info{
+    padding-top:0px;
+    padding-left:20px;
+    padding-right:10px;
+    padding-bottom:15px;
+}
+
+div#schedule{
+    /*transform:scale(0.5);*/
+    /*overflow-x:scroll;*/
+
+}
+
+table#table{
+
+}
+
+footer{
+    margin-top:20vh;
+    text-align:center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    background-color: aliceblue;
+}
+
+#top {
+    position: relative;
+    font-family: 'Optima';
+    max-width: 900px;
+    margin: auto;
+
+}
+
+#firstHeader {
+    position: absolute;
+    top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size:2.2em;
+
+}
+
+#secondHeader {
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size:1.2em;
+}
+
+#bg {
+    opacity: 0.5;
+    width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    z-index: 2;
+}
+
+h3 {
+    text-align: center;
+    font-size: 125%;
+    z-index: 2;
+}
+
+div.nav {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+}
+
+ul.nav {
+    text-align: center;
+    list-style-type: none;
+}
+
+.navli {
+    display: inline;
+}
+
+.nava {
+    font-size:75%;
+    text-decoration: none;
+    color: rgb(94, 131, 212);
+    margin-right: 1%;
+    margin-left: 1%;
+    border-bottom: 1px grey solid;
+}
+
+#disclaimer {
+    position: absolute;
+    top: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 75%;
+    text-align: center;
+}
+
+div#howTo {
+    border: 1px solid black;
+    width: 35%;
+    float: right;
+    margin-right: 5%;
+}
+
+h4#howTo {
+    text-align: center;
+}
+
+ol#howTo {}
+
+li.howTo {}
+
+table{
+    border-collapse:collapse;
+}
+
+th,
+td {
+    border:1px solid black;
+    padding:10px;
+}
+*/
